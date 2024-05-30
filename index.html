@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Store - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body background="sunset.png">
+
+    <header>
+        <div class="container">
+        <h1>E-Commerce Store</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <h2>Welcome to E-Commerce Store</h2>
+            <p>Find the best deals on the products you love.</p>
+        </section>
+        <section class="featured-products">
+            <h2>New Products</h2>
+            <div class="products">
+                <div class="product">
+                    <img src="images/1a.jpg">
+                    <h3>Camlin Scholar Mathematical Drawing Instruments</h3>
+                    <p>Rs= 140</p>
+                    <button onclick="addToCart('Camlin Scholar Mathematical Drawing Instruments', 140)">Add to Cart</button>
+                </div>
+
+                <div class="product">
+                    <img src="images/2a.jpg">
+                    <h3>Classmate Asteroid Geometry Box - Mathematical Drawing Instrument Box | Geometry Box For Students | Unique Switchable Arm Compass | Foldable 30cm Scale | High-Quality Die Cast Compass</h3>
+                    <p>Rs= 238</p>
+                    <button onclick="addToCart('Classmate Asteroid Geometry Box - Mathematical Drawing Instrument Box | Geometry Box For Students | Unique Switchable Arm Compass | Foldable 30cm Scale | High-Quality Die Cast Compass', 238)">Add to Cart</button>
+                </div>
+
+                <div class="product">
+                    <img src="images/3a.jpg">
+                    <h3>ADISA Laptop Backpack 31 Ltrs</h3>
+                    <p>Rs= 399</p>
+                    <button onclick="addToCart('ADISA Laptop Backpack 31 Ltrs', 399)">Add to Cart</button>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
